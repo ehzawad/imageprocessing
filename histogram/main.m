@@ -41,6 +41,6 @@ imshow(I)
 title('New Image');
 
 NumPixel = histogramE(I, 'Histogram of new Image', 6);
-ProbPixel = normalizedHistogramE(NumPixel, I, 'Normalized Histogram of Original Image', 7);
-CumuPixel = cumulativeHistogramE(ProbPixel, 'Cumulative Histogram of Original Image', 8);
+ProbPixel = normalizedHistogramE(NumPixel, I, 'Normalized Histogram of new Image', 7);
+CumuPixel = cumulativeHistogramE(ProbPixel, 'Cumulative Histogram of new Image', 8);
 
